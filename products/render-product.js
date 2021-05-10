@@ -1,3 +1,5 @@
+import products from '../data/hrt.js';
+
 export function renderProduct(hrt){
     // const li = document.createElement('li');
     // li.classList.add(fruit.category);
