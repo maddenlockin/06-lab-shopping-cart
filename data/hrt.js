@@ -1,3 +1,5 @@
+//import { renderProduct } from '../products/render-product.js';
+
 const estradiolPills = {
     id: 'estradiol-pills',
     name: 'Estradiol Pills',
@@ -43,11 +45,10 @@ const testosteroneGelPump = {
     price: 59.00,
     cost: 0.25,
 };
-const products = [
+export const products = [
     estradiolPills,
-    estradiolValerate (injectable),
+    estradiolValerate,
     spironolactone,
     testosteroneCypionate,
     testosteroneGelPump,
 ];
-export default products;

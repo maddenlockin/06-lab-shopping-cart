@@ -1,3 +1,6 @@
+//import {} products } from '../data/hrt.js';
+// import { renderProduct } from '../products/render-product.js';
+
 /* Products
 
 - estrogen
@@ -13,4 +16,4 @@
 - PrEP
 - ED meds
 - STI Kits
-
+*/
