@@ -1,6 +1,6 @@
-import hrtProducts from '../data/hrt';
-import { cartItems } from './cart-items';
-import { findById } from './utils';
+import hrtProducts from '../data/hrt.js';
+import { cartItems } from './cart-items.js';
+import { findById } from './utils.js';
 
 //render function
 export function renderCart(cartItem){

@@ -1,11 +1,11 @@
 // function to loop over cart items
 //import { hrtProducts } from '../products.js'
-import { renderCartItem, getCartTotal } from './render-cart.js';
+import { renderCart, getCartTotal } from './render-cart.js';
 import { cartItems } from './cart-items.js';
 
 const anchor = document.querySelector('tbody');
 for (let item of cartItems) {
-    const tableRow = renderCartItem(item);
+    const tableRow = renderCart(item);
     anchor.append(tableRow);
 }
 
