@@ -2,7 +2,7 @@
 import products from '../data/hrt.js';
 import { renderProduct } from './render-product.js';
 
-console.log(products);
+// console.log(products);
 
 const ul = document.getElementById('hrt-products');
 
@@ -13,7 +13,6 @@ const ul = document.getElementById('hrt-products');
 for (const product of products){
     const el = renderProduct(product);
     
-    console.log(el);
     // el is the li element 
     ul.appendChild(el);
 }

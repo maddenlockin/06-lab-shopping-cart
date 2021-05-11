@@ -1,4 +1,4 @@
-//import { renderProduct } from '../products/render-product.js';
+    //import { renderProduct } from '../products/render-product.js';
 
 const estradiolPills = {
     id: 'estradiol-pills',
@@ -14,7 +14,7 @@ const estradiolValerate = {
     name: 'Estradiol Valerate',
     img: '../assets/estradiol-valerate.png',
     description: 'most common injectable form of estrogen',
-    category: 'estrogen',
+    category:'estrogen',
     price: 165.00,
     cost: 0.25,
 };
@@ -23,7 +23,7 @@ const spironolactone = {
     name: 'Spironolactone',
     img: '../assets/spironolactone.png',
     description: 'testosterone blocker',
-    category: 'testosterone blocker',
+    category:'testosterone-blocker',
     price: 78.00,
     cost: 0.25,
 };
@@ -45,10 +45,11 @@ const testosteroneGelPump = {
     price: 59.00,
     cost: 0.25,
 };
-export const products = [
+const products = [
     estradiolPills,
     estradiolValerate,
     spironolactone,
     testosteroneCypionate,
     testosteroneGelPump,
 ];
+export default products;
