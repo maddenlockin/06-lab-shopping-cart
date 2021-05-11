@@ -1,4 +1,4 @@
-//import products from '../data/hrt.js';
+
 export function renderProduct(products){
     const li = document.createElement('li');
     li.classList.add(products.category);

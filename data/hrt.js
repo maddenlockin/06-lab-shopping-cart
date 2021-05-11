@@ -1,7 +1,7 @@
     //import { renderProduct } from '../products/render-product.js';
 
 const estradiolPills = {
-    id: 'estradiol-pills',
+    id: 1,
     name: 'Estradiol Pills',
     img: '../assets/estradiol-pills.png',
     description: 'pill form of estrogen',
@@ -10,7 +10,7 @@ const estradiolPills = {
     cost: 0.25,
 };
 const estradiolValerate = {
-    id: 'estradiol-valerate',
+    id: 2,
     name: 'Estradiol Valerate',
     img: '../assets/estradiol-valerate.png',
     description: 'most common injectable form of estrogen',
@@ -19,7 +19,7 @@ const estradiolValerate = {
     cost: 0.25,
 };
 const spironolactone = {
-    id: 'spironolactone',
+    id: 3,
     name: 'Spironolactone',
     img: '../assets/spironolactone.png',
     description: 'testosterone blocker',
@@ -28,7 +28,7 @@ const spironolactone = {
     cost: 0.25,
 };
 const testosteroneCypionate = {
-    id: 'testosterone-cypionate',
+    id: 4,
     name: 'Testosterone Cypionate',
     img: '../assets/testosterone-cypionate.png',
     description: 'most common injectable form of testosterone',
@@ -37,7 +37,7 @@ const testosteroneCypionate = {
     cost: 0.25,
 };
 const testosteroneGelPump = {
-    id: 'testosterone-gel-pump',
+    id: 5,
     name: 'Testosterone Gel Pump',
     img: '../assets/testosterone-gel-pump.png',
     description: 'transdermal topical gel form of testosterone',
@@ -45,11 +45,11 @@ const testosteroneGelPump = {
     price: 59.00,
     cost: 0.25,
 };
-const products = [
+const hrtProducts = [
     estradiolPills,
     estradiolValerate,
     spironolactone,
     testosteroneCypionate,
     testosteroneGelPump,
 ];
-export default products;
+export default hrtProducts;
