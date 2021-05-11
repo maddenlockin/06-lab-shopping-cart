@@ -4,10 +4,10 @@ import { findById } from './utils';
 
 //render function
 export function renderCart(cartItem){
-    console.table(cartItems);
+    //console.table(cartItems);
 
     const hrtProduct = findById(hrtProducts, cartItem.id);
-    console.table(hrtProducts);
+    //console.table(hrtProducts);
 
     const tr = document.createElement('tr');
 
