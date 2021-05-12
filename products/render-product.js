@@ -24,4 +24,6 @@ export function renderProduct(products){
     //append btn inside p and p inside li for appropriate realtionships
     li.appendChild(p);
     return li;
+
+    //button.addEventListener
 }

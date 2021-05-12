@@ -1,8 +1,9 @@
 // function to loop over cart items
 //import { hrtProducts } from '../products.js'
 import { renderCart, getCartTotal } from './render-cart.js';
-import { cartItems } from './cart-items.js';
+import { getCart } from '../local-storage.js';
 
+const cartItems = getCart();
 const anchor = document.querySelector('tbody');
 for (let item of cartItems) {
     const tableRow = renderCart(item);
