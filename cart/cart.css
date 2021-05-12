@@ -1,0 +1,30 @@
+body {
+    background: rgb(227, 241, 247);
+}
+table {
+    width: 800px;
+    display: grid;
+    grid-template-rows: .3fr .4fr .1fr .2fr; 
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+
+}
+thead, tbody, tfoot {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    border-top: 1px solid rgb(2, 28, 148);
+}
+tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 5px;
+}
+th {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
