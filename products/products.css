@@ -1,12 +1,18 @@
-.product {
-    width 200px;
-    border: 
-    text-align center;
-}
-#products {
+ul{
     display: flex;
     flex-wrap: wrap;
     justify-content:  space around;
     align-items: center;
     height: 100vh;
+    width 200px;
+    text-align: center;
+}
+li {
+    margin: 20px;
+    border: 1px solid lavender;
+    list-style: none;
+}
+img {
+    height: 200px;
+    margin: 5px;
 }
