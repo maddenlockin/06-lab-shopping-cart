@@ -1,7 +1,9 @@
 import hrtProducts from '../data/hrt.js';
-import { cartItems } from './cart-items.js';
+import { getCart } from '../local-storage-utils.js';
 import { findById } from './utils.js';
 
+
+const cartItems = getCart();
 //render function
 export function renderCart(cartItem){
     //console.table(cartItems);
