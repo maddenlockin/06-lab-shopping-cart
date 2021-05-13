@@ -41,14 +41,14 @@ export function renderCart(cartItem){
 }
 export function getCartTotal() {
     let accumulator = 0;
-
+    // const cartItems = getCartTotal();
     for (let item of cartItems){
         const hrtProduct = findById(hrtProducts, item.id);
-
+        
         const total = item.quantity * hrtProduct.price;
 
         accumulator = accumulator + total;
-
-        return accumulator;
     }
+    return accumulator;
+    
 }

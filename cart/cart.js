@@ -17,3 +17,16 @@ total.textContent = totalPrice.toLocaleString('en-US', {
     currency: 'USD'
 });
 
+const checkOutButton = document.getElementById('check-out-button');
+if (cartItem.length === 0){
+    checkOutButton.disabled = true;
+}
+checkOutButton.addEventListener('click', () => {
+    // make alert with cart contents
+    const checkOutAlert1 = JSON.stringify(cartItem, true, 2);
+    alert(`You have ${checkOutAlert1} in your cart`);
+    //remove from local storage
+    alert(`Ready to place your order?`);
+    localStorage.clear();
+    alert(`return to home page`);
+});
