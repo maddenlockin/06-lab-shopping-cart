@@ -23,10 +23,9 @@ if (cartItem.length === 0){
 }
 checkOutButton.addEventListener('click', () => {
     // make alert with cart contents
-    const checkOutAlert1 = JSON.stringify(cartItem, true, 2);
-    alert(`You have ${checkOutAlert1} in your cart`);
+    alert('You purchased:\n' + JSON.stringify(cartItem, true, 2));
     //remove from local storage
-    alert(`Ready to place your order?`);
     localStorage.clear();
-    alert(`return to home page`);
+    window.location = '../';
+
 });

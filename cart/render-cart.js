@@ -35,17 +35,20 @@ export function renderCart(cartItem){
     });
 
 
-    tr.append(nameTd, quantityTd, priceTd);
+    tr.append(nameTd, quantityTd, priceTd, totalTd);
     return tr;
 
 }
+
+
+
 export function getCartTotal() {
     let accumulator = 0;
     // const cartItems = getCartTotal();
-    for (let item of cartItems){
-        const hrtProduct = findById(hrtProducts, item.id);
+    for (let cartItem of cartItems){
+        const hrtProduct = findById(hrtProducts, cartItem.id);
         
-        const total = item.quantity * hrtProduct.price;
+        const total = cartItem.quantity * hrtProduct.price;
 
         accumulator = accumulator + total;
     }
