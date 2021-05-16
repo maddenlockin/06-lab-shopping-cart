@@ -1,3 +1,20 @@
 {
-    "liveServer.settings.port": 5502
+    "liveServer.settings.port": 5502,
+    "workbench.preferredDarkColorTheme": "Default Light+",
+    "workbench.colorCustomizations": {
+        "editor.semanticTokenColorCustomizations": {
+            
+        },
+        "editorError.foreground": "#85a4f8" ,
+        // "textCodeBlock.parameter.foreground":"#a36ef7",
+        }
+    
+        "editor.tokenColorCustomizations": {
+            "comments": "#c5a6f7",
+            // "[Horizon Bright]": {
+            //     "keywords": "#f1b8b8",
+            //     "types": "#856cf3",
+            }
+            },
+    }
 }
